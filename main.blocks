@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="W%[3c_(Mrd([x{%QbB}w">hand</variable></variables><block type="pxt-on-start" id="69K7_YMyhB[1`8|+*x#W" x="0" y="0"></block><block type="device_forever" id="7,)E/J-j4A4UO-$wq4]@" x="255" y="0"></block><block type="device_gesture_event" id="qMv9eV/o#pwazD,PcBm#" x="56" y="144"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="0vK6,)dzK@(4kquimZiG"><field name="VAR" id="W%[3c_(Mrd([x{%QbB}w">hand</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="ZT!5mSK!eu|{WzxaYbMF"><value name="min"><shadow type="math_number" id="nb?)REC?7m#jFlsSy1+-"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="faWkdc`Ah-FQ9vEna1}d"><field name="NUM">3</field></shadow></value></block></value><next><block type="controls_if" id="7@(-Cl[`S/W.4Dghhb=K"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="at#[Mf;0V,8,~MY`izQT"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="e|Pb.^@!W0T@d-.#3Iud"><field name="VAR" id="W%[3c_(Mrd([x{%QbB}w">hand</field></block></value><value name="B"><shadow type="math_number" id="z^7+[z$0=o@SS3AepBnn"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="1#uloaakNdQ+xXgtk/gN"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></statement><statement name="DO1"><block type="device_show_leds" id="mOZvZMGPIYA3=UXsAI%^"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="$%1Q?G9HQdSk=A/pD#01"><field name="LEDS">`
+        # # . . # 
+        # # . # . 
+        . . # . . 
+        # # . # . 
+        # # . . #
+        `</field></block></statement></block></next></block></statement></block><block type="variables_get" id="@BJ*.*:aLpmgOtPjiXf~" disabled="true" x="175" y="300"><field name="VAR" id="W%[3c_(Mrd([x{%QbB}w">hand</field></block></xml>
